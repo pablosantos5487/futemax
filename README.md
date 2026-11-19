@@ -51,7 +51,7 @@ liming-store/
 
 ## Publicar no GitHub Pages
 1. Crie um repositório e envie esta pasta (raiz do repositório = esta pasta).
-2. Settings → Pages → Source: *Deploy from a branch* → `main` / `/ (root)`.
+2. Settings → Pages → Build and deployment → Source: *GitHub Actions*.
 3. Para este repositório, o site fica em `https://pablosantos5487.github.io/futemax/`.
 4. Domínio próprio: Settings → Pages → Custom domain.
 
