@@ -1,0 +1,48 @@
+/* ==========================================================================
+   01-base / variaveis.css
+   PALETA, FONTES E MEDIDAS. Mude aqui e o site inteiro muda.
+   ========================================================================== */
+:root {
+  /* Base preto quente (combina com o fundo do logo Futemax) */
+  --g-950: #0b0a08;
+  --g-900: #13110e;
+  --g-800: #1a1713;
+  --g-700: #25211b;
+  --g-600: #342f26;
+
+  /* Cinzas quentes (elementos secundários) */
+  --c-500: #6b645a;
+  --c-400: #9a9285;
+  --c-300: #bdb6a8;
+  --c-200: #ddd8cc;
+
+  /* Branco de contraste (levemente quente) */
+  --branco: #f8f4ea;
+
+  /* Cor de destaque: dourado do logo Futemax */
+  --destaque: #d9a928;
+  --destaque-forte: #f0c94d;
+  --destaque-grad: linear-gradient(135deg, #f5d77a 0%, #d9a928 50%, #b8860b 100%);
+  --destaque-texto: #0b0a08; /* texto sobre o dourado */
+
+  /* Estados */
+  --ok: #3ddc84;
+  --alerta: #ff6a4a;
+
+  /* Fontes (carregadas via Google Fonts em cada HTML) */
+  --f-titulo: "Anton", "Impact", sans-serif;
+  --f-texto: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* Medidas */
+  --raio: 14px;
+  --raio-sm: 8px;
+  --largura-max: 1280px;
+  --altura-cabecalho: 72px;
+  --sombra: 0 18px 40px -18px rgba(0, 0, 0, 0.7);
+  --transicao: 220ms cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Imagem do banner principal. Para usar foto própria (com direitos):
+     --hero-imagem: url("../assets/img/hero.jpg"); */
+  --hero-imagem: none;
+}

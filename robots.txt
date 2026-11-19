@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /carrinho.html
+Sitemap: https://pablosantos5487.github.io/futemax/sitemap.xml
